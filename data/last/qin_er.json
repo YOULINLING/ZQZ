@@ -1,0 +1,61 @@
+{
+    "name": "秦二世胡亥",
+    "life_span": "前230年—前207年",
+    "dynasty": "秦朝",
+    "title": "秦朝末代君主",
+    "reign_period": "前209年—前207年",
+    "category": "last",
+    "total_score": -45,
+    "basic_info": {
+        "birth_place": "咸阳",
+        "full_name": "嬴胡亥",
+        "era_names": [],
+        "achievements": "秦二世胡亥是秦始皇的第十八子，在李斯和赵高的辅助下继承皇位。他昏庸无能，听信赵高谗言，大肆杀戮功臣，加重赋税徭役，导致民不聊生。在位期间，陈胜吴广起义爆发，各地纷纷响应。最终被赵高逼迫自杀，秦朝仅传二世而亡。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": [
+            {
+                "title": "继承秦朝",
+                "description": "成为秦始皇之后的第二位皇帝",
+                "score": 0
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -45,
+        "items": [
+            {
+                "title": "杀戮功臣",
+                "description": "诛杀蒙恬、蒙毅等功臣",
+                "score": -15
+            },
+            {
+                "title": "加重徭役",
+                "description": "加重赋税徭役，民不聊生",
+                "score": -10
+            },
+            {
+                "title": "陈胜吴广起义",
+                "description": "激起民变，各地纷纷响应",
+                "score": -8
+            },
+            {
+                "title": "秦朝灭亡",
+                "description": "被赵高逼迫自杀，秦朝灭亡",
+                "score": -12
+            }
+        ]
+    },
+    "historical_significance": [
+        "秦朝的第二位也是最后一位皇帝",
+        "中国历史上著名的昏君代表",
+        "秦朝短命而亡的主要责任人",
+        "中国历史上第一个二世而亡的大一统王朝的末代君主",
+        "赵高专权的受害者"
+    ],
+    "evaluation": {
+        "overall": "秦二世胡亥昏庸无能，在位仅三年就导致强大的秦帝国土崩瓦解",
+        "legacy": "他的统治为后世提供了'暴政必亡'的历史教训"
+    }
+}

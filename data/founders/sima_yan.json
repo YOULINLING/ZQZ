@@ -1,0 +1,60 @@
+{
+    "name": "司马炎",
+    "life_span": "236-290",
+    "dynasty": "晋朝",
+    "title": "开国皇帝",
+    "reign_period": "266年-290年（24年）",
+    "category": "founder",
+    "total_score": 15,
+    "basic_info": {
+        "birth_place": "洛阳（今河南洛阳）",
+        "full_name": "司马炎",
+        "era_names": ["泰始", "咸宁", "太康", "太熙"],
+        "achievements": "接受魏元帝禅让；统一三国；建立晋朝"
+    },
+    "positive_points": {
+        "score": 25,
+        "items": [
+            {
+                "title": "统一三国",
+                "description": "灭吴统一三国，结束分裂局面",
+                "score": 15
+            },
+            {
+                "title": "政治稳定",
+                "description": "初期政治稳定，国力强盛",
+                "score": 5
+            },
+            {
+                "title": "任用贤才",
+                "description": "任用贾充、羊祜等贤才",
+                "score": 5
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -10,
+        "items": [
+            {
+                "title": "八王之乱",
+                "description": "晚年懈怠，导致八王之乱",
+                "score": -5
+            },
+            {
+                "title": "分封诸王",
+                "description": "大量分封诸王，埋下内乱隐患",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "接受魏元帝禅让，建立晋朝",
+        "灭吴统一三国，结束分裂局面",
+        "实行均田制，促进经济发展",
+        "大量分封诸王，埋下八王之乱隐患"
+    ],
+    "evaluation": {
+        "overall": "功过参半，统一三国是其最大功绩",
+        "legacy": "他统一三国的功绩显著，但分封诸王的政策导致晋朝短暂统一后迅速分裂"
+    }
+}

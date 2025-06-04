@@ -1,0 +1,49 @@
+{
+    "name": "夏禹",
+    "life_span": "约前2200-前2100",
+    "dynasty": "夏朝",
+    "title": "开国君主",
+    "reign_period": "约前2070-前2040（30年）",
+    "category": "founder",
+    "total_score": 35,
+    "basic_info": {
+        "birth_place": "今河南省安阳市",
+        "full_name": "姒文命",
+        "era_names": [""],
+        "achievements": "治理洪水；建立夏朝；创立世袭制"
+    },
+    "positive_points": {
+        "score": 35,
+        "items": [
+            {
+                "title": "治水功绩",
+                "description": "疏通河道，治理洪水，造福百姓",
+                "score": 15
+            },
+            {
+                "title": "建立王朝",
+                "description": "建立中国第一个世袭制王朝",
+                "score": 10
+            },
+            {
+                "title": "勤政爱民",
+                "description": "勤于政事，关心百姓",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": 0,
+        "items": []
+    },
+    "historical_significance": [
+        "开创中国第一个世袭制王朝",
+        "治理黄河水患，开创大禹治水的典范",
+        "建立九州之制，奠定早期行政区划",
+        "确立世袭制度，开创家天下的先例"
+    ],
+    "evaluation": {
+        "overall": "中国历史上著名的圣君之一，以勤政爱民著称",
+        "legacy": "他开创的世袭制影响深远，治水的功绩被后世传颂"
+    }
+}

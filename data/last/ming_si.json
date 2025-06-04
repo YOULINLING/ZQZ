@@ -1,0 +1,66 @@
+{
+    "name": "朱由检",
+    "life_span": "1611年—1644年",
+    "dynasty": "明朝",
+    "title": "明朝末代君主",
+    "reign_period": "1627年—1644年",
+    "category": "last",
+    "total_score": -38,
+    "basic_info": {
+        "birth_place": "北京",
+        "full_name": "朱由检",
+        "era_names": ["崇祯"],
+        "achievements": "朱由检是明朝的最后一位皇帝，史称明思宗或崇祯帝。他在位期间，面临内忧外患：内有宦官专权、官僚腐败，外有满清崛起、农民起义。他勤勉政事，但难以挽回明朝颓势。1644年，李自成攻入北京，他在景山自缢身亡，年仅33岁。明朝统治就此结束。"
+    },
+    "positive_points": {
+        "score": 14,
+        "items": [
+            {
+                "title": "勤政爱民",
+                "description": "勤于政事，力图改革",
+                "score": 8
+            },
+            {
+                "title": "整顿吏治",
+                "description": "打击贪官，整顿吏治",
+                "score": 6
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -52,
+        "items": [
+            {
+                "title": "用人不当",
+                "description": "重用魏忠贤余党，任用奸臣",
+                "score": -12
+            },
+            {
+                "title": "军事失败",
+                "description": "农民军和满清军队屡次取胜",
+                "score": -15
+            },
+            {
+                "title": "财政危机",
+                "description": "国库空虚，军饷难以为继",
+                "score": -10
+            },
+            {
+                "title": "明朝灭亡",
+                "description": "北京陷落，自缢身亡，明朝灭亡",
+                "score": -15
+            }
+        ]
+    },
+    "historical_significance": [
+        "明朝最后一位皇帝",
+        "中国历史上著名的勤政之君",
+        "明清王朝更替的关键人物",
+        "大明王朝覆灭的见证者",
+        "中国封建王朝末期腐败的典型代表"
+    ],
+    "evaluation": {
+        "overall": "崇祯帝虽然勤勉政事，但面对内忧外患无力回天，最终以自缢结束生命",
+        "legacy": "他的悲剧性结局反映了明朝积重难返的制度性危机，也成为中国封建王朝衰落的典型案例"
+    }
+}

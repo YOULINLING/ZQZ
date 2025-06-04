@@ -1,0 +1,55 @@
+{
+    "name": "杨侗",
+    "life_span": "605年—619年",
+    "dynasty": "隋朝",
+    "title": "隋朝末代君主",
+    "reign_period": "618年—618年",
+    "category": "last",
+    "total_score": -32,
+    "basic_info": {
+        "birth_place": "大兴（今陕西西安）",
+        "full_name": "杨侗",
+        "era_names": ["皇泰"],
+        "achievements": "杨侗是隋朝的最后一位皇帝，史称隋恭帝。他在隋炀帝被缢杀后，由大臣王世充拥立为帝，年仅13岁。在位仅两个月就被迫禅让给王世充，随后被杀害，年仅14岁。隋朝至此灭亡，结束了短暂的统一局面。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": []
+    },
+    "negative_points": {
+        "score": -32,
+        "items": [
+            {
+                "title": "短暂即位",
+                "description": "在位仅两个月",
+                "score": -2
+            },
+            {
+                "title": "傀儡统治",
+                "description": "完全被王世充控制，毫无实权",
+                "score": -10
+            },
+            {
+                "title": "被迫禅让",
+                "description": "被迫禅让给王世充",
+                "score": -8
+            },
+            {
+                "title": "隋朝灭亡",
+                "description": "被王世充杀害，隋朝灭亡",
+                "score": -12
+            }
+        ]
+    },
+    "historical_significance": [
+        "隋朝最后一位皇帝",
+        "隋朝灭亡的见证者",
+        "历史上在位时间最短的皇帝之一",
+        "军阀割据时代的牺牲品",
+        "中国历史上最年轻的亡国之君之一"
+    ],
+    "evaluation": {
+        "overall": "隋恭帝杨侗是一位悲剧性的历史人物，13岁即位，14岁就被杀害，其短暂的人生反映了隋末动荡的政治局势",
+        "legacy": "他的命运象征着隋朝的迅速衰落，也反映了军阀割据时代的残酷现实"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "冯太后",
+    "life_span": "442-490",
+    "dynasty": "北魏",
+    "title": "改革推动者",
+    "reign_period": "465年-471年，476年-490年（共24年）",
+    "total_score": 40,
+    "basic_info": {
+        "birth_place": "长乐信都（今河北冀州）",
+        "full_name": "冯氏",
+        "era_names": [],
+        "achievements": "推行均田制、三长制；推动北魏汉化改革"
+    },
+    "positive_points": {
+        "score": 50,
+        "items": [
+            {
+                "title": "均田制改革",
+                "description": "推行均田制，稳定社会秩序，促进经济发展",
+                "score": 15
+            },
+            {
+                "title": "三长制",
+                "description": "建立三长制，加强中央集权",
+                "score": 10
+            },
+            {
+                "title": "俸禄制",
+                "description": "改革官员俸禄制度，遏制腐败",
+                "score": 10
+            },
+            {
+                "title": "汉化先驱",
+                "description": "推动北魏汉化改革，为孝文帝改革奠定基础",
+                "score": 15
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -10,
+        "items": [
+            {
+                "title": "权力斗争",
+                "description": "毒杀献文帝，手段强硬",
+                "score": -5
+            },
+            {
+                "title": "奢靡之风",
+                "description": "生活奢靡，大兴土木",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "北魏中期重要的政治改革家",
+        "推行均田制和三长制，促进了北魏社会的发展",
+        "为孝文帝全面汉化改革奠定了基础"
+    ],
+    "evaluation": {
+        "overall": "杰出的女政治家，其改革对北魏的发展产生了深远影响",
+        "legacy": "她的改革措施推动了北魏的社会进步和民族融合，为隋唐盛世的到来奠定了基础"
+    }
+}    

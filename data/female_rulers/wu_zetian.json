@@ -1,0 +1,60 @@
+{
+    "name": "武则天",
+    "life_span": "624-705",
+    "dynasty": "唐朝",
+    "title": "称帝者",
+    "reign_period": "690年-705年（15年）",
+    "category": "female_ruler",
+    "total_score": 15,
+    "basic_info": {
+        "birth_place": "并州文水（今山西省文水县）",
+        "full_name": "武曌",
+        "era_names": ["天授", "如意", "长寿"],
+        "achievements": "开创殿试、武举；推行均田制；巩固边疆"
+    },
+    "positive_points": {
+        "score": 30,
+        "items": [
+            {
+                "title": "科举制度革新",
+                "description": "开创殿试和武举，打破门阀垄断",
+                "score": 10
+            },
+            {
+                "title": "经济发展",
+                "description": "发展农业经济，推行均田制",
+                "score": 10
+            },
+            {
+                "title": "边疆政策",
+                "description": "巩固边疆，设置北庭都护府",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -15,
+        "items": [
+            {
+                "title": "酷吏政治",
+                "description": "任用酷吏，制造政治恐怖",
+                "score": -10
+            },
+            {
+                "title": "晚年奢靡",
+                "description": "晚年生活奢靡，耗费国力",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "唯一女皇帝，推动盛唐发展",
+        "完善科举制度，打破门阀垄断",
+        "发展农业经济，推行均田制",
+        "巩固边疆，设置北庭都护府"
+    ],
+    "evaluation": {
+        "overall": "褒贬不一，被誉为贞观遗风，但也因酷吏政治遭批评",
+        "legacy": "她的统治上承贞观之治，下启开元盛世，在政治、经济和文化等方面都有重要贡献"
+    }
+}

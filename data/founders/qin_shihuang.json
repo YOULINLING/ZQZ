@@ -1,0 +1,70 @@
+{
+    "name": "秦始皇",
+    "life_span": "前259-前210",
+    "dynasty": "秦朝",
+    "title": "开国皇帝",
+    "reign_period": "前221年-前210年（11年）",
+    "category": "founder",
+    "total_score": 20,
+    "basic_info": {
+        "birth_place": "邯郸（今河北邯郸）",
+        "full_name": "嬴政",
+        "era_names": [""],
+        "achievements": "统一中国；统一文字、度量衡；修建长城；建立郡县制"
+    },
+    "positive_points": {
+        "score": 40,
+        "items": [
+            {
+                "title": "统一中国",
+                "description": "首次统一中国，结束战国纷争",
+                "score": 15
+            },
+            {
+                "title": "文字统一",
+                "description": "统一文字为小篆，促进文化交流",
+                "score": 10
+            },
+            {
+                "title": "度量衡统一",
+                "description": "统一度量衡，促进经济发展",
+                "score": 5
+            },
+            {
+                "title": "建立郡县制",
+                "description": "推行郡县制，加强中央集权",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -20,
+        "items": [
+            {
+                "title": "焚书坑儒",
+                "description": "焚书坑儒，摧残文化",
+                "score": -10
+            },
+            {
+                "title": "暴政苛刑",
+                "description": "实行暴政，苛捐杂税",
+                "score": -5
+            },
+            {
+                "title": "劳民伤财",
+                "description": "修建长城和阿房宫，劳民伤财",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "首次统一中国，建立中央集权制度",
+        "统一文字、货币、度量衡",
+        "修建万里长城，北御匈奴",
+        "建立郡县制，奠定中国政治制度基础"
+    ],
+    "evaluation": {
+        "overall": "功大于过，是中国历史上最具影响力的帝王之一",
+        "legacy": "他建立的政治制度对后世影响深远，但严酷的统治方式也留下了负面影响"
+    }
+}

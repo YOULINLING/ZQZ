@@ -1,0 +1,60 @@
+{
+    "name": "帝辛（纣王）",
+    "life_span": "约前1105年—前1046年",
+    "dynasty": "商朝",
+    "title": "商朝末代君主",
+    "reign_period": "约前1075年—前1046年",
+    "category": "last",
+    "total_score": -45,
+    "basic_info": {
+        "birth_place": "商都朝歌",
+        "full_name": "子受",
+        "era_names": [],
+        "achievements": "帝辛，又称商纣王，是商朝最后一位君主。他聪明才智过人，但骄奢淫逸，穷奢极欲。他建造酒池肉林，宠信妲己，大兴土木，严刑峻法。在位期间，暴虐无道，酷刑残害忠良，最终导致商朝灭亡。周武王起兵伐纣，他在鹿台自焚而死。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": []
+    },
+    "negative_points": {
+        "score": -45,
+        "items": [
+            {
+                "title": "修建鹿台",
+                "description": "耗费巨资建造奢华宫殿",
+                "score": -5
+            },
+            {
+                "title": "酒池肉林",
+                "description": "穷奢极欲，挥霍无度",
+                "score": -8
+            },
+            {
+                "title": "宠信妲己",
+                "description": "听信妲己谗言，残害忠良",
+                "score": -10
+            },
+            {
+                "title": "炮烙之刑",
+                "description": "创造残酷刑罚，滥杀无辜",
+                "score": -12
+            },
+            {
+                "title": "商朝灭亡",
+                "description": "被周武王推翻，商朝灭亡",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "商朝的最后一位君主",
+        "中国历史上著名的暴君代表",
+        "其暴政直接导致商朝灭亡",
+        "周武王伐纣的主要对象",
+        "后世暴君形象的典型代表"
+    ],
+    "evaluation": {
+        "overall": "商纣王是中国历史上著名的暴君，其荒淫无道、残暴统治直接导致了商朝的灭亡",
+        "legacy": "他的暴政成为后世统治者引以为戒的反面教材，'殷鉴不远'的典故即源于此"
+    }
+}

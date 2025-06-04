@@ -1,0 +1,60 @@
+{
+    "name": "忽必烈",
+    "life_span": "1215-1294",
+    "dynasty": "元朝",
+    "title": "开国皇帝",
+    "reign_period": "1271年-1294年（23年）",
+    "category": "founder",
+    "total_score": 25,
+    "basic_info": {
+        "birth_place": "蒙古和林（今蒙古国哈尔和林）",
+        "full_name": "忽必烈",
+        "era_names": ["至元"],
+        "achievements": "统一中国；建立元朝；创立行省制度"
+    },
+    "positive_points": {
+        "score": 35,
+        "items": [
+            {
+                "title": "统一全国",
+                "description": "灭南宋，完成全国统一",
+                "score": 15
+            },
+            {
+                "title": "政治改革",
+                "description": "创立行省制度，建立科举制度",
+                "score": 10
+            },
+            {
+                "title": "文化包容",
+                "description": "兼容并蓄，促进文化交流",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -10,
+        "items": [
+            {
+                "title": "民族歧视",
+                "description": "实行民族等级制度，歧视汉人",
+                "score": -5
+            },
+            {
+                "title": "穷兵黩武",
+                "description": "多次对外用兵失败，耗费国力",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "完成中国统一，建立元朝",
+        "创立行省制度，影响后世行政区划",
+        "促进东西方文化交流",
+        "开创中国历史上第一个少数民族统一王朝"
+    ],
+    "evaluation": {
+        "overall": "杰出的政治家，完成蒙古统一中国大业",
+        "legacy": "他建立的行省制度对后世影响深远，但民族歧视政策也为元朝统治埋下隐患"
+    }
+}

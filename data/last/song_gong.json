@@ -1,0 +1,56 @@
+{
+    "name": "赵显",
+    "life_span": "1271年—1323年",
+    "dynasty": "宋朝",
+    "title": "宋朝末代君主",
+    "reign_period": "1274年—1276年",
+    "category": "last",
+    "total_score": -35,
+    "basic_info": {
+        "birth_place": "临安（今浙江杭州）",
+        "full_name": "赵显",
+        "era_names": ["德祐"],
+        "achievements": "赵显是南宋的最后一位皇帝，史称宋恭帝。他在5岁时即位，由太皇太后谢道清和丞相贾似道辅政。在位期间，元军攻陷临安，他被迫投降。元朝封他为瀛国公，后被押送北方，客死于燕京(今北京)。宋朝至此灭亡，结束了长达319年的统治。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": [
+            {
+                "title": "年幼即位",
+                "description": "5岁即位为帝",
+                "score": 0
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -35,
+        "items": [
+            {
+                "title": "临安陷落",
+                "description": "元军攻陷临安，被迫投降",
+                "score": -15
+            },
+            {
+                "title": "被封瀛国公",
+                "description": "投降后被元朝封为瀛国公",
+                "score": -8
+            },
+            {
+                "title": "宋朝灭亡",
+                "description": "被押送北方，宋朝灭亡",
+                "score": -12
+            }
+        ]
+    },
+    "historical_significance": [
+        "南宋最后一位皇帝",
+        "宋朝灭亡的见证者",
+        "年幼即位的典型案例",
+        "南宋政权衰落的象征",
+        "中国历史上最年轻的亡国之君之一"
+    ],
+    "evaluation": {
+        "overall": "宋恭帝赵显是一位悲剧性的历史人物，年仅5岁即位，8岁时国破家亡，成为南宋最后一位皇帝",
+        "legacy": "他的命运象征着南宋政权的衰落，也反映了当时宋朝内部腐败和外部威胁的双重困境"
+    }
+}

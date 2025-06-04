@@ -1,0 +1,60 @@
+{
+    "name": "朱元璋",
+    "life_span": "1328-1398",
+    "dynasty": "明朝",
+    "title": "开国皇帝",
+    "reign_period": "1368年-1398年（30年）",
+    "category": "founder",
+    "total_score": -10,
+    "basic_info": {
+        "birth_place": "濠州钟离（今安徽凤阳）",
+        "full_name": "朱重八",
+        "era_names": ["洪武"],
+        "achievements": "建立明朝；废除丞相制度；推行里甲制"
+    },
+    "positive_points": {
+        "score": 20,
+        "items": [
+            {
+                "title": "农业恢复",
+                "description": "重视农业，恢复生产",
+                "score": 10
+            },
+            {
+                "title": "军事改革",
+                "description": "建立卫所制度，加强国防",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -30,
+        "items": [
+            {
+                "title": "文字狱",
+                "description": "大兴文字狱，株连九族",
+                "score": -10
+            },
+            {
+                "title": "废除丞相",
+                "description": "废除丞相制度，权力过度集中",
+                "score": -10
+            },
+            {
+                "title": "残酷统治",
+                "description": "残酷统治，大肆屠杀功臣",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "建立明朝，结束元朝统治",
+        "废除丞相制度，六部直接对皇帝负责",
+        "推行里甲制度，加强基层管理",
+        "建立卫所制度，加强国防"
+    ],
+    "evaluation": {
+        "overall": "功过参半，建立明朝但统治残暴",
+        "legacy": "他的统治奠定了明朝的基础，但也埋下了专制主义的祸根"
+    }
+}

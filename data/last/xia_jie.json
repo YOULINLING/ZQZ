@@ -1,0 +1,55 @@
+{
+    "name": "桀",
+    "life_span": "约前1728年—约前1675年",
+    "dynasty": "夏朝",
+    "title": "夏朝末代君主",
+    "reign_period": "约前1704年—前1675年",
+    "category": "last",
+    "total_score": -30,
+    "basic_info": {
+        "birth_place": "夏都",
+        "full_name": "履癸",
+        "era_names": [],
+        "achievements": "桀，名履癸，是夏朝的最后一位君主。他荒淫无度，残暴不仁，导致夏朝灭亡。据传他修建瑶台，大兴土木，搜刮民财，使百姓民不聊生。他不顾大臣谏言，宠信妹喜，沉迷酒色，最终被商汤推翻，夏朝灭亡。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": []
+    },
+    "negative_points": {
+        "score": -30,
+        "items": [
+            {
+                "title": "修建瑶台",
+                "description": "耗费巨资修建奢华宫殿",
+                "score": -5
+            },
+            {
+                "title": "暴虐统治",
+                "description": "残暴不仁，搜刮民财",
+                "score": -10
+            },
+            {
+                "title": "宠信妹喜",
+                "description": "沉迷酒色，不理朝政",
+                "score": -5
+            },
+            {
+                "title": "夏朝灭亡",
+                "description": "被商汤推翻，夏朝灭亡",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "夏朝的最后一位君主",
+        "中国历史上最早的暴君代表",
+        "夏朝灭亡的主要责任人",
+        "商汤革命的主要对象",
+        "后世暴君形象的典型代表"
+    ],
+    "evaluation": {
+        "overall": "夏桀是中国历史上著名的暴君，其荒淫无道、残暴统治直接导致了夏朝的灭亡",
+        "legacy": "他的暴政成为后世统治者引以为戒的反面教材，'桀纣'并称成为暴君的代名词"
+    }
+}

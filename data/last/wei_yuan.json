@@ -1,0 +1,56 @@
+{
+    "name": "曹奂",
+    "life_span": "246年—303年",
+    "dynasty": "曹魏",
+    "title": "魏元帝",
+    "reign_period": "260年—265年",
+    "category": "last",
+    "total_score": -20,
+    "basic_info": {
+        "birth_place": "洛阳",
+        "full_name": "曹奂",
+        "era_names": ["正元", "甘露"],
+        "achievements": "曹奂是曹魏的最后一位皇帝，在位期间实权被司马氏掌控。他于265年被迫禅让给司马炎，曹魏灭亡。禅让后被封为陈留王，终年58岁。"
+    },
+    "positive_points": {
+        "score": 5,
+        "items": [
+            {
+                "title": "顺应时势",
+                "description": "顺应形势，和平禅让，避免战乱",
+                "score": 5
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -25,
+        "items": [
+            {
+                "title": "傀儡皇帝",
+                "description": "完全被司马氏控制，毫无实权",
+                "score": -10
+            },
+            {
+                "title": "曹魏灭亡",
+                "description": "禅让帝位给司马炎，曹魏灭亡",
+                "score": -10
+            },
+            {
+                "title": "软弱无能",
+                "description": "未能维护曹魏统治，任由司马氏夺权",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "曹魏最后一位皇帝",
+        "魏晋禅让的关键人物",
+        "三国时代结束的见证者",
+        "中国历史上著名的傀儡皇帝之一",
+        "司马氏篡魏过程的重要一环"
+    ],
+    "evaluation": {
+        "overall": "作为曹魏末代皇帝，曹奂完全被司马氏控制，最终被迫禅让帝位",
+        "legacy": "他的经历反映了曹魏政权的衰落和司马氏势力的崛起，成为中国历史上政权更迭的典型案例"
+    }
+}

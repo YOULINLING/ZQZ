@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>掌权者功绩对比</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#EC4899',
+                        neutral: '#1F2937',
+                        'neutral-light': '#F3F4F6',
+                        'neutral-dark': '#111827'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+
+            /* 新增：固定筛选器的样式 */
+            .fixed-filters {
+                position: fixed;
+                top: 0; /* 修改为0，通过JavaScript动态设置top值 */
+                left: 0;
+                right: 0;
+                z-index: 40;
+                background-color: white;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+                padding: 1rem 0;
+                transition: all 0.3s ease;
+            }
+
+            /* 新增：筛选器占位元素，防止内容跳动 */
+            .filters-placeholder {
+                display: none;
+                height: 4rem; /* 筛选器高度 */
+            }
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gray-50 text-neutral">
+<!-- 顶部导航栏 -->
+<header class="bg-gradient-to-r from-primary to-secondary text-white shadow-lg fixed w-full z-50 transition-all duration-300"
+        id="navbar">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold flex items-center">
+            <i class="fa fa-book mr-2"></i>
+            <span>掌权者功绩对比</span>
+        </a>
+        <nav class="hidden md:flex space-x-8">
+            <a href="#summary" class="hover:text-gray-200 transition-colors duration-200">评价概览</a>
+            <a href="#ruler-list" class="hover:text-gray-200 transition-colors duration-200">掌权者列表</a>
+            <a href="#comparison" class="hover:text-gray-200 transition-colors duration-200">综合对比</a>
+            <a href="#analysis" class="hover:text-gray-200 transition-colors duration-200">历史分析</a>
+        </nav>
+        <button class="md:hidden text-xl" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+    <!-- 移动端菜单 -->
+    <div class="md:hidden hidden bg-white text-neutral shadow-lg absolute w-full" id="mobile-menu">
+        <div class="container mx-auto px-4 py-3 flex flex-col space-y-4">
+            <a href="#summary" class="hover:text-primary transition-colors duration-200 py-2 border-b border-gray-100">评价概览</a>
+            <a href="#ruler-list" class="hover:text-primary transition-colors duration-200 py-2 border-b border-gray-100">掌权者列表</a>
+            <a href="#comparison" class="hover:text-primary transition-colors duration-200 py-2 border-b border-gray-100">综合对比</a>
+            <a href="#analysis" class="hover:text-primary transition-colors duration-200 py-2">历史分析</a>
+        </div>
+    </div>
+</header>
+
+<!-- 主内容区域 -->
+<main class="container mx-auto px-4 pt-24 pb-16">
+    <!-- 英雄区域 -->
+    <section class="relative bg-gradient-to-br from-primary/90 to-secondary/90 text-white rounded-2xl shadow-xl overflow-hidden mb-16">
+        <div class="absolute inset-0 bg-[url('https://picsum.photos/id/1068/1920/1080')] bg-cover bg-center opacity-20"></div>
+        <div class="relative z-10 px-8 py-16 md:py-24">
+            <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-6 text-shadow">
+                中国掌权者的历史功绩对比
+            </h1>
+            <p class="text-[clamp(1rem,2vw,1.25rem)] max-w-3xl mb-8 text-gray-100">
+                从古代到近现代，这些杰出人物在不同的历史时期书写了浓墨重彩的篇章。通过客观分析他们的政治举措、历史影响及时代背景，重新审视他们的历史地位。
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#ruler-list" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg flex items-center">
+                    <i class="fa fa-user-circle mr-2"></i> 浏览人物
+                </a>
+                <a href="#comparison" class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors duration-200 flex items-center">
+                    <i class="fa fa-bar-chart mr-2"></i> 对比分析
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 评价概览 -->
+    <section id="summary" class="mb-16">
+        <h2 class="text-[clamp(1.75rem,3vw,2.5rem)] font-bold mb-8 text-center text-neutral-dark">评价体系概览</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa fa-plus text-2xl text-primary"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">加分项评估</h3>
+                <p class="text-gray-600">
+                    从政治改革、经济发展、文化繁荣、对外关系等维度评估其积极贡献，重点考量对国家发展的推动作用及制度创新。
+                </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="w-14 h-14 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa fa-minus text-2xl text-secondary"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">扣分项评估</h3>
+                <p class="text-gray-600">
+                    考量政治腐败、社会矛盾激化、对外妥协、制度僵化等负面因素，尤其关注对国家稳定与发展的阻碍作用。
+                </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="w-14 h-14 bg-neutral/10 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa fa-balance-scale text-2xl text-neutral"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-neutral-dark">综合评分</h3>
+                <p class="text-gray-600">
+                    结合时代背景适应性、对前任政策的延续性、对后任的影响等多维度因素，给出客观公正的历史评分。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 统治者列表 -->
+    <section id="ruler-list" class="mb-16">
+        <h2 class="text-[clamp(1.75rem,3vw,2.5rem)] font-bold mb-8 text-center text-neutral-dark">中国掌权者</h2>
+
+        <!-- 筛选器容器 -->
+        <div id="filter-container">
+            <!-- 统治者筛选器 -->
+            <div id="filters" class="mb-8 flex flex-wrap gap-4 justify-center">
+                <button class="filter-btn bg-primary text-white px-4 py-2 rounded-lg" data-filter="all">全部</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="female_ruler">女性掌权者</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="founder">开国皇帝</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="last">末代皇帝</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="modern">近代掌权者</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="high-score">高分（≥20分）</button>
+                <button class="filter-btn bg-white text-primary border border-primary px-4 py-2 rounded-lg hover:bg-primary/5 transition-colors"
+                        data-filter="low-score">低分（≤0分）</button>
+            </div>
+            <!-- 占位元素，用于防止内容跳动 -->
+            <div id="filters-placeholder" class="filters-placeholder"></div>
+        </div>
+
+        <!-- 统治者卡片容器 -->
+        <div id="ruler-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 卡片将通过JavaScript动态生成 -->
+            <div class="col-span-full text-center py-16">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+                <p class="mt-4 text-gray-500">正在加载掌权者数据...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 综合对比 -->
+    <section id="comparison" class="mb-16">
+        <h2 class="text-[clamp(1.75rem,3vw,2.5rem)] font-bold mb-8 text-center text-neutral-dark">掌权者综合对比</h2>
+
+        <!-- 评分对比图表 -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h3 class="text-xl font-bold mb-6 text-neutral-dark">综合评分对比</h3>
+            <div class="h-80">
+                <canvas id="scoreChart"></canvas>
+            </div>
+        </div>
+
+        <!-- 关键指标对比表 -->
+        <div class="bg-white rounded-xl shadow-lg p-6 overflow-x-auto">
+            <h3 class="text-xl font-bold mb-6 text-neutral-dark">关键指标对比</h3>
+            <table id="comparison-table" class="w-full min-w-[800px]">
+                <thead>
+                <tr class="border-b border-gray-200">
+                    <th class="py-3 px-4 text-left font-semibold">掌权者</th>
+                    <th class="py-3 px-4 text-left font-semibold">朝代</th>
+                    <th class="py-3 px-4 text-left font-semibold">统治时长</th>
+                    <th class="py-3 px-4 text-left font-semibold">加分项</th>
+                    <th class="py-3 px-4 text-left font-semibold">扣分项</th>
+                    <th class="py-3 px-4 text-left font-semibold">最终得分</th>
+                    <th class="py-3 px-4 text-left font-semibold">历史地位</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- 表格内容将通过JavaScript动态生成 -->
+                <tr>
+                    <td colspan="7" class="py-8 text-center text-gray-500">正在加载数据...</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 历史分析 -->
+    <section id="analysis" class="mb-16">
+        <h2 class="text-[clamp(1.75rem,3vw,2.5rem)] font-bold mb-8 text-center text-neutral-dark">历史分析</h2>
+        <p class="text-gray-600">通过对不同时期掌权者的功绩对比，我们可以看到，一个优秀的掌权者需要具备政治智慧、领导能力和为人民服务的精神。在不同的历史背景下，掌权者的决策和行动对国家和人民的命运产生了深远的影响。我们应该从历史中吸取教训，不断推动国家的发展和进步。</p>
+    </section>
+</main>
+
+<!-- 详情模态框 -->
+<div id="detail-modal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-auto">
+        <div class="p-6 border-b border-gray-200 flex justify-between items-center">
+            <h3 class="text-2xl font-bold text-neutral-dark" id="modal-title">掌权者详情</h3>
+            <button id="close-modal" class="text-gray-500 hover:text-gray-700">
+                <i class="fa fa-times text-xl"></i>
+            </button>
+        </div>
+        <div id="modal-content" class="p-6">
+            <!-- 详情内容将通过JavaScript动态生成 -->
+        </div>
+        <div class="p-6 border-t border-gray-200">
+            <button id="close-modal-btn" class="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+                关闭
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- 页脚 -->
+<footer class="bg-neutral text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2024 掌权者功绩对比. 保留所有权利.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>

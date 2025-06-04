@@ -1,0 +1,65 @@
+{
+    "name": "慈禧太后",
+    "life_span": "1835-1908",
+    "dynasty": "清朝",
+    "title": "垂帘听政者",
+    "reign_period": "1861年-1908年（47年）",
+    "category": "female_ruler",
+    "total_score": -30,
+    "basic_info": {
+        "birth_place": "北京",
+        "full_name": "叶赫那拉·杏贞",
+        "era_names": ["同治", "光绪"],
+        "achievements": "镇压太平天国；洋务运动；新政改革"
+    },
+    "positive_points": {
+        "score": 10,
+        "items": [
+            {
+                "title": "洋务运动",
+                "description": "支持洋务运动，引进西方技术",
+                "score": 5
+            },
+            {
+                "title": "晚年新政",
+                "description": "晚年推行新政，尝试改革",
+                "score": 5
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -40,
+        "items": [
+            {
+                "title": "挪用军费",
+                "description": "挪用海军军费修建颐和园",
+                "score": -10
+            },
+            {
+                "title": "甲午战败",
+                "description": "甲午战争惨败，割地赔款",
+                "score": -10
+            },
+            {
+                "title": "镇压维新",
+                "description": "镇压戊戌变法，处死维新派",
+                "score": -10
+            },
+            {
+                "title": "八国联军",
+                "description": "支持义和团，导致八国联军侵华",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "长期垂帘听政，实际掌控清朝政权",
+        "支持洋务运动，但挪用军费修建颐和园",
+        "镇压戊戌变法，处死维新派人士",
+        "支持义和团，导致八国联军侵华"
+    ],
+    "evaluation": {
+        "overall": "负面评价多于正面，被视为清朝衰亡的重要原因",
+        "legacy": "她的统治加速了清朝的衰亡，但也在一定程度上推动了中国的近代化进程"
+    }
+}

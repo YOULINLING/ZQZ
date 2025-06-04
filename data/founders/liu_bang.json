@@ -1,0 +1,65 @@
+{
+    "name": "刘邦",
+    "life_span": "前256-前195",
+    "dynasty": "汉朝",
+    "title": "开国皇帝",
+    "reign_period": "前202年-前195年（7年）",
+    "category": "founder",
+    "total_score": 25,
+    "basic_info": {
+        "birth_place": "沛县丰邑（今江苏省沛县）",
+        "full_name": "刘季",
+        "era_names": ["高祖"],
+        "achievements": "建立汉朝；轻徭薄赋；约法三章；重用贤才"
+    },
+    "positive_points": {
+        "score": 35,
+        "items": [
+            {
+                "title": "建立汉朝",
+                "description": "推翻秦朝暴政，建立汉朝",
+                "score": 10
+            },
+            {
+                "title": "轻徭薄赋",
+                "description": "实行轻徭薄赋政策，休养生息",
+                "score": 10
+            },
+            {
+                "title": "约法三章",
+                "description": "简化法律，约法三章",
+                "score": 5
+            },
+            {
+                "title": "任用贤才",
+                "description": "重用萧何、韩信等贤才",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -10,
+        "items": [
+            {
+                "title": "杀害功臣",
+                "description": "杀害韩信、彭越等功臣",
+                "score": -5
+            },
+            {
+                "title": "吕后专权",
+                "description": "晚年懈怠，导致吕后专权",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "建立汉朝，开创汉代四百年基业",
+        "实行轻徭薄赋，休养生息政策",
+        "约法三章，简化法律",
+        "任用贤才，奠定汉朝统治基础"
+    ],
+    "evaluation": {
+        "overall": "功大于过，开创了汉朝的统治基业",
+        "legacy": "他建立的汉朝是中国历史上最重要的朝代之一，为后世留下了宝贵的治国经验"
+    }
+}

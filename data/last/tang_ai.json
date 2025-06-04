@@ -1,0 +1,56 @@
+{
+    "name": "李柷",
+    "life_span": "892年—908年",
+    "dynasty": "唐朝",
+    "title": "唐朝末代君主",
+    "reign_period": "904年—907年",
+    "category": "last",
+    "total_score": -30,
+    "basic_info": {
+        "birth_place": "长安（今陕西西安）",
+        "full_name": "李柷",
+        "era_names": ["天佑"],
+        "achievements": "李柷是唐朝的最后一位皇帝，史称唐哀帝。他在朱温杀害唐昭宗后被拥立为帝，年仅12岁。在位期间完全是朱温的傀儡，最终被迫禅让，唐朝灭亡。禅让后被封为济阴王，次年被朱温杀害，年仅16岁。唐朝统治就此结束，中国进入五代十国时期。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": [
+            {
+                "title": "年幼即位",
+                "description": "12岁即位为帝",
+                "score": 0
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -30,
+        "items": [
+            {
+                "title": "傀儡统治",
+                "description": "完全被朱温控制，毫无实权",
+                "score": -10
+            },
+            {
+                "title": "禅让后梁",
+                "description": "被迫禅让给朱温，唐朝灭亡",
+                "score": -8
+            },
+            {
+                "title": "被害身亡",
+                "description": "被朱温杀害，唐朝彻底结束",
+                "score": -12
+            }
+        ]
+    },
+    "historical_significance": [
+        "唐朝最后一位皇帝",
+        "唐朝灭亡的见证者",
+        "五代十国时期的开端",
+        "军阀割据时代的牺牲品",
+        "中国历史上最年轻的亡国之君之一"
+    ],
+    "evaluation": {
+        "overall": "唐哀帝李柷是一位悲剧性的历史人物，12岁即位，16岁就被杀害，其短暂的人生反映了唐末藩镇割据的混乱局势",
+        "legacy": "他的命运象征着大唐帝国的最终衰落，也标志着中国历史从盛唐走向五代十国的动荡时期"
+    }
+}

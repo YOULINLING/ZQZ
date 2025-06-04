@@ -1,0 +1,61 @@
+{
+    "name": "司马睿",
+    "life_span": "276年—323年",
+    "dynasty": "西晋",
+    "title": "晋元帝",
+    "reign_period": "317年—323年",
+    "category": "last",
+    "total_score": -15,
+    "basic_info": {
+        "birth_place": "洛阳",
+        "full_name": "司马睿",
+        "era_names": ["建武"],
+        "achievements": "司马睿是西晋末期的皇族，在永嘉之乱中南渡建立东晋政权。他是西晋实际意义上的末代君主，同时也是东晋的开国皇帝。在他统治期间，确立了门阀政治体制，奠定了东晋统治基础。"
+    },
+    "positive_points": {
+        "score": 15,
+        "items": [
+            {
+                "title": "保存晋室",
+                "description": "在北方沦陷时南渡建立东晋，延续晋朝血脉",
+                "score": 8
+            },
+            {
+                "title": "稳定江南",
+                "description": "安抚江南士族，建立相对稳定的统治",
+                "score": 7
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -30,
+        "items": [
+            {
+                "title": "失去北方",
+                "description": "无力收复中原，导致北方永久失守",
+                "score": -15
+            },
+            {
+                "title": "偏安江南",
+                "description": "放弃收复中原，选择偏安一隅",
+                "score": -8
+            },
+            {
+                "title": "门阀专权",
+                "description": "过度依赖江南士族，导致门阀政治形成",
+                "score": -7
+            }
+        ]
+    },
+    "historical_significance": [
+        "西晋实际意义上的末代君主",
+        "东晋王朝的开创者",
+        "永嘉之乱后晋室南渡的关键人物",
+        "中国南北分裂时代的开启者",
+        "门阀政治体制的确立者"
+    ],
+    "evaluation": {
+        "overall": "司马睿身兼西晋末主与东晋开国之双重身份，其统治标志着中国历史由统一走向分裂的转折点",
+        "legacy": "他的南渡之举虽然保存了晋室血脉，但也开启了长达近三百年的南北分裂时代，对中国历史产生深远影响"
+    }
+}

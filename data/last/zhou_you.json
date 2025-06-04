@@ -1,0 +1,55 @@
+{
+    "name": "姬宫湦",
+    "life_span": "约前795年—前771年",
+    "dynasty": "西周",
+    "title": "西周末代君主",
+    "reign_period": "前781年—前771年",
+    "category": "last",
+    "total_score": -43,
+    "basic_info": {
+        "birth_place": "镐京（今陕西西安）",
+        "full_name": "姬宫湦",
+        "era_names": [],
+        "achievements": "周幽王是西周的最后一位君主。他荒淫无道，宠信褒姒，为博美人一笑，多次点燃烽火台戏弄诸侯，导致诸侯失去信任。在位期间，政治腐败，国力衰退。最终在犬戎入侵时，诸侯不再响应求援，周幽王被杀于骊山下，西周灭亡。"
+    },
+    "positive_points": {
+        "score": 0,
+        "items": []
+    },
+    "negative_points": {
+        "score": -43,
+        "items": [
+            {
+                "title": "废黜申后",
+                "description": "废黜王后和太子，立褒姒为后",
+                "score": -8
+            },
+            {
+                "title": "烽火戏诸侯",
+                "description": "为博褒姒一笑，多次点燃烽火台欺骗诸侯",
+                "score": -15
+            },
+            {
+                "title": "犬戎之祸",
+                "description": "犬戎入侵，诸侯不再响应求援",
+                "score": -10
+            },
+            {
+                "title": "西周灭亡",
+                "description": "被杀于骊山下，西周灭亡",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "西周最后一位君主",
+        "西周灭亡的直接责任人",
+        "中国历史上著名的亡国之君",
+        "烽火戏诸侯成为历史典故",
+        "周王朝由西周转向东周的转折点"
+    ],
+    "evaluation": {
+        "overall": "周幽王是一位昏庸无道的君主，其荒淫无度、昏聩无能导致西周灭亡",
+        "legacy": "他的统治标志着西周的衰落，其'烽火戏诸侯'的故事也成为后世警示君主不可荒淫无度的经典教材"
+    }
+}

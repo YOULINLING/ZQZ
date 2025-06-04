@@ -1,0 +1,63 @@
+{
+    "name": "萧绰（萧太后）",
+    "life_span": "953-1009",
+    "dynasty": "辽朝",
+    "title": "军事统帅与改革家",
+    "reign_period": "982年-1009年（27年）",
+    "total_score": 45,
+    "basic_info": {
+        "birth_place": "契丹族",
+        "full_name": "萧绰，小字燕燕",
+        "era_names": ["统和"],
+        "achievements": "签订澶渊之盟；推行汉制改革；军事扩张"
+    },
+    "positive_points": {
+        "score": 55,
+        "items": [
+            {
+                "title": "澶渊之盟",
+                "description": "与北宋签订和平协议，维持百年和平",
+                "score": 15
+            },
+            {
+                "title": "汉制改革",
+                "description": "推行科举制度，发展农业，促进汉化",
+                "score": 15
+            },
+            {
+                "title": "军事才能",
+                "description": "亲自率军征战，扩大辽朝疆域",
+                "score": 15
+            },
+            {
+                "title": "人才选拔",
+                "description": "重用韩德让等有才能的官员",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -10,
+        "items": [
+            {
+                "title": "战争消耗",
+                "description": "多次发动战争，消耗国力",
+                "score": -5
+            },
+            {
+                "title": "晚年奢靡",
+                "description": "生活奢靡，耗费财富",
+                "score": -5
+            }
+        ]
+    },
+    "historical_significance": [
+        "辽朝最杰出的女政治家和军事统帅",
+        "通过澶渊之盟实现宋辽和平，促进了文化交流",
+        "推行汉制改革，加速了辽朝的封建化进程"
+    ],
+    "evaluation": {
+        "overall": "杰出的统治者，其政策使辽朝达到鼎盛",
+        "legacy": "她的统治对辽朝的繁荣和稳定起到了至关重要的作用，被誉为'辽朝的武则天'"
+    }
+}    

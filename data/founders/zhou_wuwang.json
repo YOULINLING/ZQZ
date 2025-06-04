@@ -1,0 +1,49 @@
+{
+    "name": "周武王",
+    "life_span": "约前1087-前1043",
+    "dynasty": "周朝",
+    "title": "开国君主",
+    "reign_period": "前1046-前1043（3年）",
+    "category": "founder",
+    "total_score": 35,
+    "basic_info": {
+        "birth_place": "镐京（今陕西西安）",
+        "full_name": "姬发",
+        "era_names": [""],
+        "achievements": "推翻商朝；建立周朝；创立分封制"
+    },
+    "positive_points": {
+        "score": 35,
+        "items": [
+            {
+                "title": "推翻暴政",
+                "description": "推翻商纣王暴政，解救百姓",
+                "score": 10
+            },
+            {
+                "title": "分封制度",
+                "description": "创立分封制，确立宗法制度",
+                "score": 15
+            },
+            {
+                "title": "任用贤才",
+                "description": "重用周公旦、召公等贤臣",
+                "score": 10
+            }
+        ]
+    },
+    "negative_points": {
+        "score": 0,
+        "items": []
+    },
+    "historical_significance": [
+        "推翻商朝，建立周朝",
+        "创立分封制度，确立宗法制度",
+        "开创周朝八百年基业",
+        "确立礼乐制度，奠定华夏文明基础"
+    ],
+    "evaluation": {
+        "overall": "英明的君主，开创了周朝的统治基业",
+        "legacy": "他创立的分封制和宗法制度对中国古代政治制度影响深远"
+    }
+}

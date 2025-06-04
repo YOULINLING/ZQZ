@@ -1,0 +1,71 @@
+{
+    "name": "蒋介石",
+    "life_span": "1887年—1975年",
+    "dynasty": "民国",
+    "title": "国民政府主席",
+    "reign_period": "1928年—1949年",
+    "category": "modern",
+    "total_score": -14,
+    "basic_info": {
+        "birth_place": "浙江奉化溪口",
+        "full_name": "蒋中正",
+        "era_names": [],
+        "achievements": "蒋介石是中国国民党的主要领导人，曾任国民政府主席、国民革命军总司令等职。他领导北伐统一中国，建立南京国民政府。抗日战争期间领导对日作战，但在之后的国共内战中失利，退守台湾。其统治时期经历了剿共、抗日、内战等重大历史事件。"
+    },
+    "positive_points": {
+        "score": 28,
+        "items": [
+            {
+                "title": "北伐统一",
+                "description": "领导北伐战争，统一全国",
+                "score": 10
+            },
+            {
+                "title": "抗日领导",
+                "description": "领导抗日战争，坚持抗战八年",
+                "score": 12
+            },
+            {
+                "title": "建设南京",
+                "description": "建设南京为现代化首都",
+                "score": 6
+            }
+        ]
+    },
+    "negative_points": {
+        "score": -42,
+        "items": [
+            {
+                "title": "清党运动",
+                "description": "发动清党运动，破坏第一次国共合作",
+                "score": -12
+            },
+            {
+                "title": "西安事变",
+                "description": "被迫接受第二次国共合作",
+                "score": -5
+            },
+            {
+                "title": "内战失利",
+                "description": "在国共内战中失败，退守台湾",
+                "score": -15
+            },
+            {
+                "title": "政治腐败",
+                "description": "统治后期政治腐败，民生凋敝",
+                "score": -10
+            }
+        ]
+    },
+    "historical_significance": [
+        "中国国民党的主要领导人",
+        "南京国民政府的实际统治者",
+        "抗日战争时期的最高统帅",
+        "国共内战的主要参与者",
+        "台湾威权统治时期的领导人"
+    ],
+    "evaluation": {
+        "overall": "蒋介石是近代中国极具争议的政治人物，在抗日战争中有重要贡献，但其独裁统治和政治腐败导致最终失去大陆政权",
+        "legacy": "他的统治对中国近现代史产生深远影响，其功过是历史研究和评价的重要课题"
+    }
+}
