@@ -89,8 +89,21 @@ detailModal.addEventListener('click', (e) => {
 // 掌权者数据
 let rulersData = [];
 
+// 显示加载指示器
+function showLoadingIndicator() {
+    rulerContainer.innerHTML = `
+        <div class="col-span-full text-center py-16">
+            <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-primary border-t-transparent"></div>
+            <p class="mt-4 text-gray-600">正在加载掌权者数据...</p>
+        </div>
+    `;
+}
+
 // 加载掌权者数据
 async function loadRulersData() {
+    // 显示加载指示器
+    showLoadingIndicator();
+    
     try {
         // 从不同目录加载数据
         const categories = [
@@ -110,10 +123,9 @@ async function loadRulersData() {
                 }
 
                 const fileList = await response.json();
-                const rulers = [];
-
-                // 逐个加载文件内容
-                for (const fileName of fileList) {
+                
+                // 并行加载该类别下的所有掌权者数据
+                const rulerPromises = fileList.map(async fileName => {
                     try {
                         const rulerResponse = await fetch(`data/${category.folder}/${fileName}`);
                         if (!rulerResponse.ok) {
@@ -121,13 +133,17 @@ async function loadRulersData() {
                         }
 
                         const rulerData = await rulerResponse.json();
-                        rulers.push({ ...rulerData, category: category.type });
+                        return { ...rulerData, category: category.type };
                     } catch (error) {
                         console.error(`Error loading ${fileName}:`, error);
+                        return null;
                     }
-                }
+                });
 
-                return rulers;
+                // 等待该类别下所有掌权者数据加载完成
+                const rulers = await Promise.all(rulerPromises);
+                // 过滤掉加载失败的数据
+                return rulers.filter(ruler => ruler !== null);
             } catch (error) {
                 console.error(`Error loading ${category.folder}:`, error);
                 return [];
@@ -152,8 +168,14 @@ async function loadRulersData() {
             <div class="col-span-full text-center py-16">
                 <p class="text-red-500">加载数据失败: ${error.message}</p>
                 <p class="mt-2 text-gray-500">请检查数据文件路径和格式是否正确</p>
+                <button id="retry-load" class="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90">
+                    <i class="fa fa-refresh mr-2"></i>重试
+                </button>
             </div>
         `;
+        
+        // 添加重试按钮事件
+        document.getElementById('retry-load')?.addEventListener('click', loadRulersData);
     }
 }
 
